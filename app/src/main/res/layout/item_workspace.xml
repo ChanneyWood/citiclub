@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/layout_big_bottom_border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="18px"
+        android:layout_marginRight="36px"
+        android:textSize="28px"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/orange"
+        android:id="@+id/workspace_tv_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进行中"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="13px"
+            android:layout_marginLeft="35px"
+            android:id="@+id/workspace_image_view"
+            android:layout_width="536px"
+            android:layout_height="332px" />
+        <LinearLayout
+            android:layout_marginTop="13px"
+            android:layout_marginLeft="40px"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="28px"
+                android:textStyle="bold"
+                android:textColor="#6c6c6c"
+                android:id="@+id/workspace_tv_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx有限公司"/>
+            <TextView
+                android:layout_marginTop="26px"
+                android:textSize="28px"
+                android:textStyle="bold"
+                android:textColor="#6c6c6c"
+                android:id="@+id/workspace_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx设计"/>
+            <LinearLayout
+                android:layout_marginTop="26px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="28px"
+                    android:textColor="#6c6c6c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="酬金 |  "/>
+                <TextView
+                    android:textSize="28px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange"
+                    android:text="¥80000.00"
+                    android:id="@+id/workspace_tv_salary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="26px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/workspace_tv_deadline"
+                    android:textSize="28px"
+                    android:textColor="#6c6c6c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="剩余时间  "/>
+                <TextView
+                    android:textSize="28px"
+                    android:id="@+id/workspace_tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/bigGreen"
+                    android:text="6天"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="26px"
+                android:id="@+id/workspace_linear_stage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="28px"
+                    android:id="@+id/workspace_tv_stage_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/orange"
+                    android:text="阶段一"/>
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:textSize="28px"
+                    android:id="@+id/workspace_tv_stage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/bigGreen"
+                    android:text="安全"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/workspace_linear_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="查看详情"
+                    android:textColor="#6c6c6c"
+                    android:textSize="28px" />
+
+                <ImageView
+                    android:layout_width="18px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7dp"
+                    android:src="@drawable/more" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

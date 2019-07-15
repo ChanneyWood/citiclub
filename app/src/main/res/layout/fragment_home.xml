@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:id="@+id/home_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--滑动图片-->
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/layout_image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"></com.daimajia.slider.library.SliderLayout>
+
+            <!--功能按钮-->
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/home_constr"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal">
+                <!--设计任务-->
+                <LinearLayout
+                    android:background="@drawable/layout_big_allround_no_right_border"
+                    android:id="@+id/btn_img_task_work"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:orientation="vertical"
+                    app:layout_constraintLeft_toLeftOf="parent">
+
+                    <ImageView
+                        android:id="@+id/img_task_work"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="33dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_design_work" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="35dp"
+                        android:textColor="#6C6C6C"
+                        android:text="设计任务" />
+                </LinearLayout>
+                <!--作业库-->
+                <LinearLayout
+                    android:background="@drawable/layout_big_allround_no_right_border"
+                    android:id="@+id/btn_img_library_work"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:orientation="vertical"
+                    app:layout_constraintLeft_toRightOf="@id/btn_img_task_work">
+
+                    <ImageView
+                        android:id="@+id/img_library_work"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_job_lib" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="42dp"
+                        android:textColor="#6C6C6C"
+                        android:text="作业库" />
+                </LinearLayout>
+                <!--成功案例-->
+                <LinearLayout
+                    android:background="@drawable/layout_big_allround_gray_border"
+                    android:id="@+id/btn_img_success_work"
+                    android:layout_width="120dp"
+                    android:layout_height="110dp"
+                    android:orientation="vertical"
+                    app:layout_constraintRight_toRightOf="parent">
+
+                    <ImageView
+                        android:id="@+id/img_success_work"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_success_case" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="30dp"
+                        android:textColor="#6C6C6C"
+                        android:text="成功案例" />
+                </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
+
+            <!--三张图片-->
+            <!--<LinearLayout-->
+                <!--android:layout_marginBottom="20dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/u106" />-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:orientation="vertical">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@drawable/u102" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@drawable/u102" />-->
+                <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+
+            <!--成功案例推荐-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/success_case_to_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <LinearLayout
+                        android:background="#2493D3"
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"></LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="成功案例推荐"
+                        android:textColor="#6C6C6C"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/success_work_more"
+                        android:layout_width="16dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/more"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#6C6C6C"
+                        android:textStyle="bold"
+                        android:text="查看更多"
+                        app:layout_constraintRight_toLeftOf="@id/success_work_more"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/recycler_success_case_part"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+            <!--设计任务推荐-->
+            <LinearLayout
+                android:background="@drawable/layout_big_border"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/design_work_to_more"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="40dp">
+
+                    <LinearLayout
+                        android:background="#2493D3"
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"></LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="设计任务推荐"
+                        android:textColor="#6C6C6C"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/design_work_more"
+                        android:layout_width="16dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/more"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#6C6C6C"
+                        android:textStyle="bold"
+                        android:text="查看更多"
+                        app:layout_constraintRight_toLeftOf="@id/design_work_more"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_design_work_part"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+            <!--边界-->
+            <LinearLayout
+                android:background="@drawable/layout_big_border"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"></LinearLayout>
+            <!--多余部件-->
+            <FrameLayout
+                android:id="@+id/scroll_frag_home"
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+            </FrameLayout>
+
+            <!--任务中心-->
+            <LinearLayout
+                android:background="@drawable/layout_big_border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/work_center_to_more"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <LinearLayout
+                        android:background="#2493D3"
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"></LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="任务中心"
+                        android:textColor="#6C6C6C"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/work_center_more"
+                        android:layout_width="16dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/more"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#6C6C6C"
+                        android:textStyle="bold"
+                        android:text="查看更多"
+                        app:layout_constraintRight_toLeftOf="@id/work_center_more"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_work_center_part"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

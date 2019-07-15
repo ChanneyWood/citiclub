@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textStyle="bold"
+        android:textColor="#6C6C6C"
+        android:textSize="13dp"
+        android:text="发布需求"/>
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="27dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/arrow"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textStyle="bold"
+        android:textColor="#6C6C6C"
+        android:textSize="13dp"
+        android:text="挑选初稿"/>
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="27dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/arrow"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textStyle="bold"
+        android:textColor="#6C6C6C"
+        android:textSize="13dp"
+        android:text="挑选成品"/>
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="27dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/arrow"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textStyle="bold"
+        android:textColor="#6C6C6C"
+        android:textSize="13dp"
+        android:text="最终评分"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="98px"
+    android:layout_width="378px"
+    android:background="@drawable/shape_small_blue_button"
+    >
+
+    <TextView
+        android:id="@+id/spinner_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="60px"
+        android:text="全部"
+        android:textColor="#ffffff"
+        android:textSize="40px"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="126px"
+        android:src="@drawable/arrow_down"
+        android:layout_width="44px"
+        android:layout_height="28px" />
+</LinearLayout>

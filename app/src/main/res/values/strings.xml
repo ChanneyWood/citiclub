@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">citiclub</string>
+    <string name="wenan">互联网是一个参与感时代，如今互联网汽车飞起云涌，如何让汽车拥有参与感？用户的创意如何在最复杂的汽车领域实现？北汽新能源首度为您揭秘用户“众创”的汽车如何实现了那些你曾经只是臆想的创意，如何让你在意想不到的新消费场景找到与众不同的出行工具。</string>
+    <string name="wenan1">当人们都在谈论餐厅如何个性化、技术如何改变人们生活的时候，消费、支付、就餐、娱乐、获取知识等各种场景都发生了改变。根据马斯洛需求层次理论，生理需求只是基本配置，未来消费者在情感、自我需求、形象要求和视觉体验上会有更高的要求。然而在互联网大数据时代的开启，井喷式的新技术和产品造就了新的市场生态，刺激了消费者在消费行为和需求的新型蜕变。消费者的需求和欲求，虽然只有一字之差，但两者有本质上的区别。需求是解决一件事情的标配，而欲求则意味着消费者内心的渴望，期望有更好的体验。</string>
+    <string name="wenan2">告别130年的“闭门造车”，轰趴不只为玩乐</string>
+    <string name="wenan3">而就是在这个“万物皆新”的时代，首个主张好产品需要用户与设计师协同参与的洛客共享设计平台与北汽新能源做了一次大胆的尝试：能否让极富有想象力的用户参与到极为严苛的汽车设计流程中来，让用户大胆的提出什么样的车会更让她们心动。甚至，让跨界设计师及用户参与到个性化车生活场景、智能软件、硬件创意中来。正式这次大胆的尝试中发现“高手在民间”，当用户真正发出自己的声音时极为严苛的设计流程中迸发了“新物种”。从此，让130年的“闭门造车”变成“开门造车”。</string>
+    <string name="wenan4">社会化创造，关键在于“创”与“造”的完美结合</string>
+    <string name="wenan5">衣食富足的时代，用户的创造力丰富，文化昌盛是自古以来的规律。然而，想象力与实体制造的结合方能最大限度的释放魅力。因此，泛意设计平台通过价值的贯穿对产品进行超级用户的创意赋能、设计师的设计赋能、创造型供应链管理生产赋能、营销渠道赋能、投资赋能，让想象力与产品的结合可以完美的得以实现。1月23日LITE入驻奇客巴士，亦是泛意设计平台在打造新物种爆款中将新产品引入“新消费场景”的重要步骤。“新物种X新零售”这种汽车创新商业模式，是新零售带来的演进趋势，将为用户提供全方位的消费场景及体验的转变。以后消费者购车，就能像逛3C数码店一样试用和购买LITE，体验集买、用、玩于一体的汽车消费模式。</string>
+    <string name="wenan6">新平台、新理念、新物种，未来已来</string>
+    <string name="wenan7">未来，北汽新能源将携手泛意共享设计平台探索与用户一起定义城市绿色出行，邀请产业链参与者共建协同的社会化创新平台。未来，用户将会选择到适合自己兴趣、爱好、使用场景的出行工具。</string>
+    <string name="requirement_1">可口可乐广告需要和世界杯联系起来</string>
+    <string name="requirement_2">包括：\n错题本、效率手册、文具袋、晒学习包宣传单</string>
+    <string name="requirement_3">6月14日，等待四年的世界杯即将揭开帷幕！相信全球各地的热血球迷们早已摩拳擦掌迫不及待地想要感受巅峰对决、冠军捧杯的超燃瞬间了！作为世界杯的老朋友，可口可乐自然不会错过为世界杯“打call”的绝妙机会，在这个注定会激情满满的夏天，可口可乐推陈出新，为全世界球迷献上“今夏最HOT看球神器”。</string>
+    <string name="case_bg">等待四年的世界杯即将揭开帷幕，相信全球各地的热血球迷们早已摩拳擦掌迫不及待地想要感受巅峰对决、冠军捧杯的超燃瞬间了。</string>
+    <string name="market_disadv">市场上同类饮品竞争激烈</string>
+    <string name="use_group">喜爱世界杯的球迷，与饮品爱好者</string>
+    <string name="title_home">首页</string>
+    <string name="title_category">分类</string>
+    <string name="title_cart">购物车</string>
+    <string name="title_my">我的</string>
+    <string name="add_bink_card">添加银行卡</string>
+    <string name="bink_user_name">姓名</string>
+    <string name="bank_edit_name">输入中文名字</string>
+    <string name="bink_user_code">卡号</string>
+    <string name="bank_edit_code">输入19位银行卡号</string>
+    <string name="bink_agreement">阅读并同意《银行卡支付用户协议》</string>
+    <string name="attribute_selection_nextstep">下一步</string>
+    <string name="bink_type">卡类型</string>
+    <string name="user_phone">手机号</string>
+    <string name="edit_hint_phone">输入银行预留手机号</string>
+    <string name="bink_explain">身份信息严格加密,仅用于银行验证</string>
+    <string name="bank_name">花旗银行</string>
+    <string name="edit_verification_code">请输入验证码</string>
+    <string name="verification_code">获取验证码</string>
+    <string name="bt_register_submit">完成</string>
+    <string name="bank_card">银行卡</string>
+</resources>
