@@ -19,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        System.out.println("liliang");
         login = findViewById(R.id.login_btn_login);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
